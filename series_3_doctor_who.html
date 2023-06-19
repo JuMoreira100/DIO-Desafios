@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doctor Who</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <div>
+      <div class="logo">
+        <img
+          src="https://img2.gratispng.com/20180331/xve/kisspng-nerd-logo-glasses-geek-nerd-5abfc3ff267ea3.4911039115225169911577.jpg"
+          width="100"
+        />
+      </div>
+    </div>
+
+    <div class="bar"></div>
+
+    <div class="content">
+      <div class="sidebar">
+        <h2>Séries</h2>
+        <ul>
+          <li><a href="index_series.html">Smallville</a></li>
+          <li><a href="series_2_anne.html">Anne with E</a></li>
+        </ul>
+      </div>
+
+      <div class="main">
+        <h1>Doctor Who</h1>
+        <a id="doctorwho"></a>
+        <hr />
+        <img
+          src="data:image/jpeg;base64,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"
+          width="200"
+          alt=""
+        />
+        <p>
+          Doctor Who é uma série de ficção científica britânica, produzida e
+          transmitida pela BBC desde 1963. A série retrata as aventuras do
+          Doutor, um Senhor do Tempo alienígena do planeta Gallifrey, que
+          explora o universo em sua máquina do tempo, uma sensível nave espacial
+          conhecida como TARDIS (time and relative dimension in space), cuja
+          aparência exterior se assemelha a uma cabine de polícia londrina de
+          1963. Juntamente aos seus companheiros, o Doutor enfrenta uma
+          variedade de inimigos, enquanto trabalha para salvar as civilizações,
+          ajudar as pessoas comuns e corrigir erros.
+        </p>
+        <p>
+          A série recebeu o reconhecimento da crítica e do público como um dos
+          melhores programas de televisão britânicos, incluindo o British
+          Academy Television Award 2006 de Melhor Série de Drama e por cinco
+          anos consecutivos (2005-10) venceu o National Television Awards,
+          durante a atuação de Russell T Davies como produtor executivo.Em 2011,
+          Matt Smith tornou-se o primeiro Doutor a ser indicado ao BAFTA de
+          Melhor Ator em um papel principal. Em 2013, o Prêmio Peabody honrou
+          Doctor Who com um Peabody institucional de "para a evolução com a
+          tecnologia e as vezes como nada mais no universo televisivo
+          conhecido". O programa está listado no Guinness World Records como a
+          série de ficção científica televisiva de mais longa duração no mundo e
+          como a "mais bem sucedida" série de ficção científica de todos os
+          tempos – com base em seus índices de transmissão global, DVDs, venda
+          de livros, e o tráfego no iTunes. Durante seu funcionamento original,
+          foi reconhecida por suas histórias imaginativas, criativas de baixo
+          orçamento de efeitos especiais e de uso pioneiro de música eletrônica
+          (originalmente produzido pela Oficina Radiofônica da BBC).
+        </p>
+        <p>
+          Quinze atores e uma atriz já atuaram na série como 13 diferentes
+          encarnações do Doutor (o Primeiro Doutor foi interpretado por três
+          atores diferentes, enquanto John Hurt interpretou uma versão especial
+          do personagem). A transição de um ator para outro é descrito no enredo
+          do show como a regeneração, um processo de vida dos Senhores do Tempo
+          através do qual o personagem do Doutor assume um novo corpo, e de
+          certa forma, nova personalidade, que ocorre quando este sofre uma
+          lesão que seria fatal para a maioria das outras espécies.[13] Apesar
+          de cada interpretação ser diferente, e em algumas ocasiões uma
+          encarnação encontrar outra, elas são pensadas para serem aspectos do
+          mesmo personagem. O Doutor (atualmente A Doutora), é interpretado por
+          Jodie Whittaker que assumiu o papel depois da aparição final de Peter
+          Capaldi em "Twice Upon a Time" em 25 de dezembro de 2017.
+        </p>
+        <h2>Produção</h2>
+        <a id="produção"></a>
+        <hr />
+        <p>
+          A produção original de Doctor Who era realizada com poucos recursos.
+          Cada episódio de 25 minutos era registrado em vídeo (cenas de estúdio)
+          e filme de 16 mm (cenas em locação). A maquiagem, cenários e efeitos
+          visuais eram precários, quase amadorísticos, mas a série fez enorme
+          sucesso na Inglaterra graças, principalmente, aos roteiros criativos
+          que colocavam O Doutor e seus amigos em mirabolantes aventuras que
+          aconteciam em diversos locais do espaço e do tempo. A série iniciou
+          como um programa educacional para crianças, onde O Doutor conhecia
+          figuras famosas do passado e participava de fatos históricos. Mas em
+          breve passaram a predominar as aventuras de ficção científica onde os
+          heróis encontravam estranhas civilizações e criaturas extraterrestres.
+          Normalmente um grupo de episódios formava um seriado ou história
+          completa, e cada temporada era composta por alguns desses seriados. Em
+          1989, a BBC suspendeu Doctor Who, mesmo ainda com uma boa audiência,
+          sob a alegação de que haveria apenas um hiato maior entre a 26.ª e a
+          27.ª temporada. Na verdade, a BBC estava diante de um impasse - frente
+          a outras séries contemporâneas de ficção científica norte-americanas,
+          de produção bem mais sofisticada, Doctor Who não tinha como competir
+          com elas tecnicamente, e para enfrentar a concorrência seu orçamento
+          teria de ser multiplicado. Como a BBC à época era comandada por
+          executivos que não gostavam muito de ficção científica e que optaram
+          por não liberar os recursos necessários, a série entrou num limbo do
+          qual saiu apenas em 1996, com a tentativa frustrada de trazê-la de
+          volta numa parceria com a FOX e a Universal. Apesar de sofisticado, o
+          telefilme foi considerado americanizado demais. Finalmente em 2005 a
+          BBC do País de Gales trouxe de volta a série, com um nível de produção
+          muito superior ao da original. A versão atual possui um orçamento que
+          permite a utilização de elaboradas maquiagens e efeitos em computação
+          gráfica (CGI). Cada nova temporada é composta por 13 episódios de 45
+          minutos e um especial de Natal com 60 minutos, gravados em vídeo de
+          alta definição e posteriormente passados para película de 35mm. Exceto
+          pelos especiais, os 13 episódios, ainda que muitas vezes contando
+          histórias autônomas, fazem parte de um arco que é desenvolvido ao
+          longo da temporada. Cada temporada tem trazido de volta pelo menos um
+          inimigo clássico do Doutor - já tivemos a volta, entre outros, dos
+          Daleks, dos Cybermen, dos Silurians, do Mestre, Guerreiros de Gelo e
+          da Grande Inteligência
+        </p>
+        <h2>O Doutor</h2>
+        <a id="o_doutor"></a>
+        <hr />
+        <p>
+          A personagem do Doutor está sempre envolta em mistério. No início da
+          série, apenas se sabia que ele era um extraterrestre viajante e
+          excêntrico, com um grande conhecimento sobre as mais variadas
+          matérias, que combatia as injustiças encontradas ao explorar o
+          Universo na sua nave espacial, a TARDIS. TARDIS é uma sigla para Time
+          And Relative Dimension In Space (Tempo e Dimensão Relativa No Espaço).
+          A TARDIS é maior por dentro do que por fora, e, devido a uma avaria
+          permanente no circuito camaleão, a sua aparência exterior assemelha-se
+          à de uma cabine de polícia londrina dos anos 60. Eventualmente
+          descobre-se que a figura sinistra e misteriosa do Doutor é uma espécie
+          de renegado da sua própria espécie, os Time Lords (Senhores do Tempo),
+          oriundos do planeta Gallifrey, da constelação de Kasterborous.
+        </p>
+        <p>
+          Sendo um Senhor do Tempo, o Doutor tem a capacidade de regenerar o seu
+          corpo quando está muito debilitado, como forma de evitar a morte. Este
+          conceito foi introduzido em 1966, quando os produtores se confrontaram
+          com a saída do ator principal William Hartnel, como forma de prolongar
+          a série. Desde então tem sido uma característica definidora da série,
+          sendo utilizada sempre que é necessário substituir o ator principal.
+          No arco The Deadly Assassin, de 1976, foi estabelecido, que um Senhor
+          do Tempo pode regenerar apenas doze vezes, chegando a um total de
+          treze encarnações. Porém, em "The Time of the Doctor", em 2013, o
+          Doutor recebe dos Senhores do Tempo mais um ciclo de regenerações, o
+          que proporcionou a continuação da série. Até 2017, o personagem já
+          passou por este processo quatorze vezes, tendo cada uma das suas
+          quinze encarnações o seu estilo e particularidades, mas partilhando as
+          memórias, a experiência e o seu sentido moral
+        </p>
+        <h2>Elenco</h2>
+        <a id="elenco"></a>
+        <hr />
+        <table border="2">
+          <thead>
+            <tr>
+              <td>Ator/Atriz</td>
+              <td>Personagem</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Christopher Eccleston</td>
+              <td>Nono Doutor</td>
+            </tr>
+            <tr>
+              <td>David Tennant</td>
+              <td>Décimo Doutor / John Smith</td>
+            </tr>
+            <tr>
+              <td>Matt Smith</td>
+              <td>Décimo primeiro Doutor</td>
+            </tr>
+            <tr>
+              <td>Billie Piper</td>
+              <td>Rose Tyler</td>
+            </tr>
+            <tr>
+              <td>Karen Gillan</td>
+              <td>Amy Pond</td>
+            </tr>
+            <tr>
+              <td>Arthur Darvill</td>
+              <td>Rory Williams</td>
+            </tr>
+            <tr>
+              <td>John Barrowman</td>
+              <td>Jack Harkness</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="anchors">
+        <h2>Neste Artigo</h2>
+        <ul>
+          <li><a href="#doctorwho">Doctor Who</a></li>
+          <li><a href="#produção">Produção</a></li>
+          <li><a href="#o_doutor">O Doutor</a></li>
+          <li><a href="#elenco">Elenco</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer"></div>
+  </body>
+</html>
